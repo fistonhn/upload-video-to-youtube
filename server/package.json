@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon sever.js",
+    "start": "sever.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "facebook-api-video-upload": "^2.0.1",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.4",
+    "node-fetch": "^2.6.6",
+    "nodemon": "^2.0.15",
+    "open": "^8.4.0",
+    "uuid": "^8.3.2",
+    "youtube-api": "^3.0.1"
+  }
+}
